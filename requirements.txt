@@ -1,0 +1,4 @@
+streamlit
+requests
+fpdf2
+python-pptx
