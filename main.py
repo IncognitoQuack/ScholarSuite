@@ -453,7 +453,7 @@ state.setdefault("generation_complete", False)
 
 # Sidebar
 with st.sidebar:
-    st.image("https://openrouter.ai/logo.png", width=60)
+    st.image("https://cdn-icons-png.flaticon.com/512/2593/2593194.png", width=69)
     st.title(YOUR_SITE_NAME)
     st.caption(f"Version: {APP_VERSION}")
     st.markdown("---")
