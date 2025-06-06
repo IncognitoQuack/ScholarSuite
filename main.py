@@ -57,7 +57,7 @@ Discuss first major aspect.
 - Bullet point B.
 
 ### {{Optional Subsection}}
-Additional details.
+Additional details. (must be added in order to inc the content lenght)
 
 ## {{Section 2 Title}}
 In-depth exploration.
@@ -483,7 +483,7 @@ with st.sidebar:
 5. Download your PDF / PPTX when ready.
 """
     )
-    st.caption("For best PDF fonts, place DejaVu `.ttf` files next to this script.")
+    # st.caption("For best PDF fonts, place DejaVu `.ttf` files next to this script.")
 
 # Main area
 st.header("🤖 AI Content Creator Deluxe ✨")
@@ -653,4 +653,4 @@ with col_output:
         st.info("After you click 'Generate Content', your documents and preview will appear here.")
 
 st.markdown("---")
-st.caption(f"AI Content Creator Deluxe v{APP_VERSION} | Always verify AI-generated content.")
+st.caption(f"AI Content Creator Deluxe v{APP_VERSION} | Beta.")
